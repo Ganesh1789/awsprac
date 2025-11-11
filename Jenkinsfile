@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/awsprac.git'
+                git 'git 'https://github.com/Ganesh1789/awsprac.git'
+'
             }
         }
         stage('Build') {
